@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors</title>
+    <link rel="stylesheet" href="sponser.css"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sponsor {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .sponsor:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sponsors</h1>
+
+<div class="container">
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Title Sponsor</h3>
+        <p>Company A</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Co-title Sponsor</h3>
+        <p>Company B</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Partner Sponsors</h3>
+        <p>Company C</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Event Sponsors</h3>
+        <p>Company D</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Outreach Partner Sponsors</h3>
+        <p>Company E</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Our Contributor Sponsors</h3>
+        <p>Company F</p>
+    </div>
+    <div class="sponsor" onclick="openLink('https://sponserswebsite.com')">
+        <h3>Food Sponsors</h3>
+        <p>Company G</p>
+    </div>
+</div>
+
+<script>
+    function openLink(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>

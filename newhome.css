@@ -1,0 +1,172 @@
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("https://www.wellmadeclothes.com.au/wp-content/uploads/2022/03/tinder.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.logo-image{
+    width: 12%;
+    padding-top: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+}
+.navbar{
+    height: 10vh;
+    padding-right: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ho{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+.ho:hover{
+    color:#ff5733;
+}
+.login-in{
+    font-size:x-large;
+    /* background-color: #ff5733; */
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    border: 2px;
+    cursor: pointer;
+    border-color: black;
+    
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: small;
+    margin: 2px 1px;
+    /* transition-duration: 0.4s;
+    cursor: pointer;
+    position: fixed; */
+
+
+
+    transition: background-color 0.3s ease; 
+    background-image: linear-gradient(#ff0f7b, #f89b29);
+}
+.login-in:hover {
+    /* background-color: #333; */
+    background-color: white; 
+    color: black; 
+    border: 1px solid #02110c;
+  }
+  .main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .main-title-container{
+    color: white;
+    font-size: xxx-large;
+  }
+  .main-title{
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 14px;
+  }
+
+  .button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(#ff0f7b, #f89b29);
+  position: fixed;
+  top: 75%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #02110c;
+}
+.button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(#ff0f7b, #f89b29);
+  position: fixed;
+  top: 75%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #02110c;
+}
+
+
+
+
+
+  /* .button{
+    border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  background-image: linear-gradient(#ff0f7b, #f89b29);
+  }
+  .button:hover {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #02110c;
+  } */
+  .lan{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="aphome.css">
+</head>
+<body>
+<div id="d1"></div>
+<div class="background"></div>
+
+<div class="container">
+    <header>
+        <div class="nav">
+            <img src="https://1000logos.net/wp-content/uploads/2018/07/Tinder-logo.png" width="175px" height="45px" alt="tinder Logo"></a>
+            <a href="homepage.html">Home</a>
+            <label for="product"></label>
+            <select id="product" placeholder="Products" onchange="redirectToPage()">
+                <option class="prem" value="premium">Premium features</option>
+                <option class="sub" value="subscription">Subscription Tiers</option>
+            </select>
+            <a href="learn.html">Learn</a>
+            <a href="safety.html">Safety</a>
+            <a href="support.html">Support</a>
+            <a href="download.html">Download</a>
+            <label for="selection"></label>
+            <select id="selection" placeholder="language">
+                <option class="eng" value="English">English(UK)</option>
+                <option class="hin" value="Hindi">Hindi</option>
+            </select>
+            <a href="our team.html">Our Team</a>
+            <button onclick="redirectToLoginPage()">Login</button>
+        </div>
+    </header>
+</div>
+<div class="firstpage">
+<div class="center">
+    <h1 class="centre">Start something epic</h1>
+</div>
+
+<div>
+    <!-- <img class="im" src="https://www.wellmadeclothes.com.au/wp-content/uploads/2022/03/tinder-800x400.jpeg"> -->
+</div>
+
+<div class="crea">
+    <button class="button button1" onclick="redirectToLoginPage()">Create account</button>
+    <script>
+        function redirectToLoginPage() {
+            window.location.href = "login.html";
+        }
+    </script>
+</div>
+
+<div class="secondpage">
+
+</div>
+</body>
+</html>

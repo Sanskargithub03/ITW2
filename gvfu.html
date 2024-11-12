@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="">
+</head>
+<script>
+    function redirectToPage() {
+        var product = document.getElementById("product").value;
+        if (product === "premium") {
+            window.location.href = "workshop.html";
+        } else if (product === "subscription") {
+            window.location.href = "workshop.html";
+        }
+    }
+</script>
+
+</head>
+<body>
+<div id="d1"> </div>
+<div class="background"></div>
+
+<div class="container">
+
+<header>
+    <DIV class="nav">
+        <img src="https://1000logos.net/wp-content/uploads/2018/07/Tinder-logo.png" width="175px" height="45px" alt="tinder Logo"></a>
+        <A href="homepage.html">Home</A>
+       
+        <label for="product" ></label>
+        <select id="product" placeholder="Products" onchange="redirectToPage()">
+            <option class="prem" value="premium">Premeium features</option>
+            <option class="sub" value="subscription ">Subscription Tiers</option>
+
+        </select>
+        <A href="learn.html">Learn</A>
+        <A href="safety.html">Safety</A>
+        <A href="support.html">Support</A>
+        <A href="download.html">Download</A>
+        <label for="selection"></label>
+        <select id="selection" placeholder="language">
+            <option class="eng" value="English">English(UK)</option>
+            <option class="hin" value="Hindi">Hindi</option>
+        </select>
+        <A  href="our team.html">Our Team</A>
+        
+<button onclick="redirectToLoginPage()">Login</button>
+
+<script>
+function redirectToLoginPage() {
+    window.location.href = "login.html";
+}
+</script>
+</DIV>
+</header>
+</div>   
+
+ 
+    <div class="center">
+        <h1 class="centre">Start something epic</h1>
+
+    </div>
+    <div >
+    <!-- <img class="im"src="https://www.wellmadeclothes.com.au/wp-content/uploads/2022/03/tinder-800x400.jpeg"> -->
+    </div>
+</div>
+
+    <div class="crea">
+        <button class="button button1" onclick="redirectToLoginPage()">Create account</button>
+        <!-- <button class="create" onclick="redirectToLoginPage()">Create account</button> -->
+        <script>
+            function redirectToLoginPage() {
+                window.location.href = "login.html";
+            }
+            </script>
+
+    </div>
+</div>
+<!-- <div class="secondpage>
+    
+</div> -->
+
+
+
+
+
+</body>             
+</head>
